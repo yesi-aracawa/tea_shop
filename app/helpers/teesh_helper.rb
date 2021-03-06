@@ -1,0 +1,2 @@
+module TeeshHelper
+end
