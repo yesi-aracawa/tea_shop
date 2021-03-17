@@ -1,0 +1,98 @@
+.footer {
+    left: 0px;
+    background: #495664;
+}
+
+.h2-footer {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.h3-footer {
+    font-weight: normal;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.signup-black {
+    background: #0B1113;
+    border-style: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.img-cta{
+    background-color: rgba(11, 17, 19, 0.36);
+}
+
+@media screen and (max-width: 375px) {
+    .footer{
+        top: 2080px;
+        width: 375px;
+        height: 387px;
+    }
+    .h2-footer{
+        width: 268px;
+        height: 77px;
+        text-align: center;
+        margin: 63px 53px 247px 53px;
+    }
+    .h3-footer{
+        width: 274px;
+        height: 76px;
+        margin: 155px 50px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .signup-black{
+        width: 193px;
+        height: 42px;
+        margin: 283px 91px 62px 91px;
+    }
+    .box{
+        background-image: url('cta_tea_cup_mobile.jpg');
+        width: 375px;
+        height: 112px;
+        background-size: 100% 100%;
+        top: 2467px;
+    }
+    .img-cta {
+        display: none;
+    }
+}
+
+@media (min-width:376px) and (max-width:1440px) {
+
+    .footer{
+        top: 1239px;
+        height: 387px;
+        width: 1440px;
+    }
+    .h2-footer{
+        width: 480px;
+        height: 60px;
+        margin: 64px 896px 263px 64px;
+    }
+    .h3-footer{
+        width: 480px;
+        height: 76px;
+        margin: 10% 896px 155px 64px;
+        font-size: 24px;
+    }
+    .signup-black{
+        width: 193px;
+        height: 42px;
+        margin: 264px 1183px 81px 64px;
+    }
+    .img-cta {
+        background-image: url('cta_tea_cup_desktop.jpg');
+        width: 822px;
+        height: 387px;
+        left: 618px;
+        top: 1239px;
+    }
+}
